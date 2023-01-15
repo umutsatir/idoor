@@ -9,11 +9,6 @@ def home():
     req = requests.get(
         'https://api.thingspeak.com/channels/1995263/feeds.json?api_key=KPAHRPU02P3AIXNW&results=2 ')
     state1 = req.json()["feeds"][-1]["field1"]
-    if request.method == 'POST':
-        if state1 == "1":
-            return render_template("website.html", state=state1)
-        elif state1 == "0":
-            return render_template("website.html", state=state1)
     return render_template("website.html", state=state1)
 
 
