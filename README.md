@@ -9,6 +9,10 @@ An Arduino project that allows you to open a door using an RFID card is a great 
 - [@umutsatir](https://www.github.com/umutsatir)
 - [@Afettahoglu](https://github.com/Afettahoglu)
 - [@abdunaber](https://www.github.com/abdunaber)
+- [@Meliksahcaliskan](https://www.github.com/Meliksahcaliskan)
+- [@undert0v](https://www.github.com/undert0v)
+
+
 
 ## Deployment
 
@@ -19,6 +23,7 @@ To deploy this project run
   cd idoor
   python project.py
 ```
+
 
 
 ## Tech Stack
