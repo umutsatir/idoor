@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, url_for, jsonify
 import requests
+import json
 app = Flask(__name__)
 
 
@@ -19,7 +20,12 @@ def update():
     time1 = req.json()["feeds"][-1]["created_at"].split("T")
     hour = time1[1].split(".")[0].split("Z")[0]
     date = time1[0]
-    username = "admin"
+    usernameID = req.json()["feeds"][-1]["field2"]
+    file = json.load(open("usernames.json"))["users"]
+    for i in range(len(file)):
+        if file[i]["id"] == usernameID:
+            username = file[i]["username"]
+            break
     list = [hour, date, username, state1]
     return list
 
