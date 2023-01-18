@@ -32,5 +32,5 @@ To deploy this project run
 
 **Client:** HTML, CSS, Bootstrap
 
-**Server:** Javascript, Python
+**Server:** Javascript, Python, PHP
 
