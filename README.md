@@ -30,8 +30,8 @@ To deploy this project run
 
 ## Tech Stack
 
-**Client:** HTML, CSS, Bootstrap
+**Client:** HTML, CSS, Bootstrap, Javascript, JQuery
 
-**Server:** Javascript, Python
+**Server:** Python
 
 For the complete project, you can check this link: https://github.com/AbduNaber/iDoor
