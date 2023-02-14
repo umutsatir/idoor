@@ -32,6 +32,6 @@ To deploy this project run
 
 **Client:** HTML, CSS, Bootstrap
 
-**Server:** Javascript, Python, PHP
+**Server:** Javascript, Python
 
 For the complete project, you can check this link: https://github.com/AbduNaber/iDoor
